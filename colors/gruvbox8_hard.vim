@@ -3179,72 +3179,71 @@ if s:t_Co >= 2
   finish
 endif
 
-if get(g:, "gruvbox_filetype_hi_groups", 0)
-  hi! link TSError Error
-  hi! link TSPunctDelimiter Delimiter
-  hi! link TSPunctBracket vimBracket
-  hi! link TSPunctSpecial SpecialChar
+hi! link TSError Error
+hi! link TSPunctDelimiter Delimiter
+hi! link TSPunctBracket Delimiter
+hi! link TSPunctSpecial SpecialChar
 
-  " Constants
-  hi! link TSConstant Constant
-  hi! link TSConstBuiltin pythonBuiltin
-  " Not sure about this guy
-  " hi! link TSConstMacro guifg=#4EC9B0
-  hi! link TSString String
-  " hi! link TSStringRegex guifg=#CE9178
-  " hi! link TSStringEscape guifg=#D7BA7D
-  hi! link TSCharacter Character
-  hi! link TSNumber Number
-  hi! link TSBoolean Boolean
-  hi! link TSFloat Float
-  " hi! link TSAnnotation guifg=#DCDCAA
-  " hi! link TSAttribute guifg=#FF00FF
-  " hi! link TSNamespace guifg=#FF00FF
+" Constants
+hi! link TSConstant Constant
+hi! link TSConstBuiltin Special
+" Not sure about this guy
+hi! link TSConstMacro Macro
+hi! link TSString String
+hi! link TSStringRegex String
+hi! link TSStringEscape String
+hi! link TSCharacter Character
+hi! link TSNumber Number
+hi! link TSBoolean Boolean
+hi! link TSFloat Float
+hi! link TSAnnotation Identifier
+hi! link TSAttribute Identifier
+hi! link TSNamespace Identifier
 
 
-  " Functions
-  hi! link TSFuncBuiltin pythonBuiltinFunc
-  hi! link TSFunction Function
-  hi! link TSFuncMacro Macro
-  " hi! link TSParameter guifg=#9CDCFE
-  " hi! link TSParameterReference guifg=#9CDCFE
-  hi! link TSMethod javascriptGlobalMethod
-  " hi! link TSField guifg=#9CDCFE
-  hi! link TSProperty jsClassProperty
-  hi! link TSConstructor purescriptConstructor
+" Functions
+hi! link TSFuncBuiltin Special
+hi! link TSFunction Function
+hi! link TSFuncMacro Macro
+hi! link TSParameter Identifier
+hi! link TSParameterReference Identifier
+hi! link TSMethod Function
+hi! link TSField Identifier
+hi! link TSProperty Identifier
+hi! link TSConstructor Function
 
-  " Keywords
-  hi! link TSConditional Conditional
-  hi! link TSRepeat Repeat
-  hi! link TSLabel Label
-  " Does not work for yield and return they should be diff then class and def
-  hi! link TSKeyword Keyword
-  " hi! link TSKeywordFunction Keyword
-  " hi! link TSKeywordOperator Keyword
-  hi! link TSOperator Operator
-  hi! link TSException Exception
-  hi! link TSType Type
-  hi! link TSTypeBuiltin pythonBuiltinObj
-  hi! link TSStructure Structure
-  hi! link TSInclude Include
+" Keywords
+hi! link TSConditional Conditional
+hi! link TSRepeat Repeat
+hi! link TSLabel Label
+" Does not work for yield and return they should be diff then class and def
+hi! link TSKeyword Keyword
+hi! link TSKeywordFunction Function
+hi! link TSKeywordOperator Operator
+hi! link TSOperator Operator
+hi! link TSException Exception
+hi! link TSType Type
+hi! link TSTypeBuiltin Special
+hi! link TSStructure Structure
+hi! link TSInclude Include
 
-  " Variable
-  hi! link TSVariable clojureVariable
-  " hi! link TSVariableBuiltin guifg=#9CDCFE
+" Variable
+hi! link TSVariable Identifier
+hi! link TSVariableBuiltin Identifier
 
-  " Text
-  " hi! link TSText guifg=#FF00FF
-  " hi! link TSStrong guifg=#FF00FF
-  " hi! link TSEmphasis guifg=#FF00FF
-  " hi! link TSUnderline guifg=#FF00FF
-  hi! link TSTitle Title
-  " hi! link TSLiteral guifg=#FF00FF
-  hi! link TSURI markdownUrl
+" Text
+" hi! link TSText guifg=#FF00FF
+" hi! link TSStrong guifg=#FF00FF
+" hi! link TSEmphasis guifg=#FF00FF
+" hi! link TSUnderline guifg=#FF00FF
+hi! link TSTitle Title
+" hi! link TSLiteral guifg=#FF00FF
+hi! link TSURI Constant
 
-  " Tags
-  hi! link TSTag Tag
-  hi! link TSTagDelimiter Delimiter
-endif
+" Tags
+hi! link TSTag Tag
+hi! link TSTagDelimiter Delimiter
+
 " Color: neutralred        rgb(204,  36,  29)    160 DarkRed
 " Color: neutralgreen      rgb(152, 151,  26)    100 DarkGreen
 " Color: neutralyellow     rgb(215, 153,  33)    172 DarkYellow
