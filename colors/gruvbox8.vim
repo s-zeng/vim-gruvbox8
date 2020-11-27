@@ -654,27 +654,27 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
       hi markdownUrlTitleDelimiter guifg=#b8bb26 guibg=NONE gui=NONE cterm=NONE
       hi markdownLinkText guifg=#928374 guibg=NONE gui=underline cterm=underline
       hi! link markdownIdDeclaration markdownLinkText
-      hi haskellType guifg=#ebdbb2 guibg=NONE gui=NONE cterm=NONE
-      hi haskellIdentifier guifg=#ebdbb2 guibg=NONE gui=NONE cterm=NONE
-      hi haskellSeparator guifg=#ebdbb2 guibg=NONE gui=NONE cterm=NONE
-      hi haskellDelimiter guifg=#a89984 guibg=NONE gui=NONE cterm=NONE
-      hi haskellOperators guifg=#83a598 guibg=NONE gui=NONE cterm=NONE
-      hi haskellBacktick guifg=#fe8019 guibg=NONE gui=NONE cterm=NONE
-      hi haskellStatement guifg=#fe8019 guibg=NONE gui=NONE cterm=NONE
-      hi haskellConditional guifg=#fe8019 guibg=NONE gui=NONE cterm=NONE
-      hi haskellLet guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
-      hi haskellDefault guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
-      hi haskellWhere guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
-      hi haskellBottom guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
-      hi haskellBlockKeywords guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
-      hi haskellImportKeywords guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
-      hi haskellDeclKeyword guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
-      hi haskellDeriving guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
-      hi haskellAssocType guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
-      hi haskellNumber guifg=#d3869b guibg=NONE gui=NONE cterm=NONE
-      hi haskellPragma guifg=#d3869b guibg=NONE gui=NONE cterm=NONE
-      hi haskellString guifg=#b8bb26 guibg=NONE gui=NONE cterm=NONE
-      hi haskellChar guifg=#b8bb26 guibg=NONE gui=NONE cterm=NONE
+      " hi haskellType guifg=#ebdbb2 guibg=NONE gui=NONE cterm=NONE
+      " hi haskellIdentifier guifg=#ebdbb2 guibg=NONE gui=NONE cterm=NONE
+      " hi haskellSeparator guifg=#ebdbb2 guibg=NONE gui=NONE cterm=NONE
+      " hi haskellDelimiter guifg=#a89984 guibg=NONE gui=NONE cterm=NONE
+      " hi haskellOperators guifg=#83a598 guibg=NONE gui=NONE cterm=NONE
+      " hi haskellBacktick guifg=#fe8019 guibg=NONE gui=NONE cterm=NONE
+      " hi haskellStatement guifg=#fe8019 guibg=NONE gui=NONE cterm=NONE
+      " hi haskellConditional guifg=#fe8019 guibg=NONE gui=NONE cterm=NONE
+      " hi haskellLet guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
+      " hi haskellDefault guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
+      " hi haskellWhere guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
+      " hi haskellBottom guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
+      " hi haskellBlockKeywords guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
+      " hi haskellImportKeywords guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
+      " hi haskellDeclKeyword guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
+      " hi haskellDeriving guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
+      " hi haskellAssocType guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
+      " hi haskellNumber guifg=#d3869b guibg=NONE gui=NONE cterm=NONE
+      " hi haskellPragma guifg=#d3869b guibg=NONE gui=NONE cterm=NONE
+      " hi haskellString guifg=#b8bb26 guibg=NONE gui=NONE cterm=NONE
+      " hi haskellChar guifg=#b8bb26 guibg=NONE gui=NONE cterm=NONE
       hi jsonKeyword guifg=#b8bb26 guibg=NONE gui=NONE cterm=NONE
       hi jsonQuote guifg=#b8bb26 guibg=NONE gui=NONE cterm=NONE
       hi jsonBraces guifg=#ebdbb2 guibg=NONE gui=NONE cterm=NONE
@@ -1336,27 +1336,27 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     hi markdownUrlTitleDelimiter guifg=#79740e guibg=NONE gui=NONE cterm=NONE
     hi markdownLinkText guifg=#928374 guibg=NONE gui=underline cterm=underline
     hi! link markdownIdDeclaration markdownLinkText
-    hi haskellType guifg=#3c3836 guibg=NONE gui=NONE cterm=NONE
-    hi haskellIdentifier guifg=#3c3836 guibg=NONE gui=NONE cterm=NONE
-    hi haskellSeparator guifg=#3c3836 guibg=NONE gui=NONE cterm=NONE
-    hi haskellDelimiter guifg=#7c6f64 guibg=NONE gui=NONE cterm=NONE
-    hi haskellOperators guifg=#076678 guibg=NONE gui=NONE cterm=NONE
-    hi haskellBacktick guifg=#af3a03 guibg=NONE gui=NONE cterm=NONE
-    hi haskellStatement guifg=#af3a03 guibg=NONE gui=NONE cterm=NONE
-    hi haskellConditional guifg=#af3a03 guibg=NONE gui=NONE cterm=NONE
-    hi haskellLet guifg=#427b58 guibg=NONE gui=NONE cterm=NONE
-    hi haskellDefault guifg=#427b58 guibg=NONE gui=NONE cterm=NONE
-    hi haskellWhere guifg=#427b58 guibg=NONE gui=NONE cterm=NONE
-    hi haskellBottom guifg=#427b58 guibg=NONE gui=NONE cterm=NONE
-    hi haskellBlockKeywords guifg=#427b58 guibg=NONE gui=NONE cterm=NONE
-    hi haskellImportKeywords guifg=#427b58 guibg=NONE gui=NONE cterm=NONE
-    hi haskellDeclKeyword guifg=#427b58 guibg=NONE gui=NONE cterm=NONE
-    hi haskellDeriving guifg=#427b58 guibg=NONE gui=NONE cterm=NONE
-    hi haskellAssocType guifg=#427b58 guibg=NONE gui=NONE cterm=NONE
-    hi haskellNumber guifg=#8f3f71 guibg=NONE gui=NONE cterm=NONE
-    hi haskellPragma guifg=#8f3f71 guibg=NONE gui=NONE cterm=NONE
-    hi haskellString guifg=#79740e guibg=NONE gui=NONE cterm=NONE
-    hi haskellChar guifg=#79740e guibg=NONE gui=NONE cterm=NONE
+    " hi haskellType guifg=#3c3836 guibg=NONE gui=NONE cterm=NONE
+    " hi haskellIdentifier guifg=#3c3836 guibg=NONE gui=NONE cterm=NONE
+    " hi haskellSeparator guifg=#3c3836 guibg=NONE gui=NONE cterm=NONE
+    " hi haskellDelimiter guifg=#7c6f64 guibg=NONE gui=NONE cterm=NONE
+    " hi haskellOperators guifg=#076678 guibg=NONE gui=NONE cterm=NONE
+    " hi haskellBacktick guifg=#af3a03 guibg=NONE gui=NONE cterm=NONE
+    " hi haskellStatement guifg=#af3a03 guibg=NONE gui=NONE cterm=NONE
+    " hi haskellConditional guifg=#af3a03 guibg=NONE gui=NONE cterm=NONE
+    " hi haskellLet guifg=#427b58 guibg=NONE gui=NONE cterm=NONE
+    " hi haskellDefault guifg=#427b58 guibg=NONE gui=NONE cterm=NONE
+    " hi haskellWhere guifg=#427b58 guibg=NONE gui=NONE cterm=NONE
+    " hi haskellBottom guifg=#427b58 guibg=NONE gui=NONE cterm=NONE
+    " hi haskellBlockKeywords guifg=#427b58 guibg=NONE gui=NONE cterm=NONE
+    " hi haskellImportKeywords guifg=#427b58 guibg=NONE gui=NONE cterm=NONE
+    " hi haskellDeclKeyword guifg=#427b58 guibg=NONE gui=NONE cterm=NONE
+    " hi haskellDeriving guifg=#427b58 guibg=NONE gui=NONE cterm=NONE
+    " hi haskellAssocType guifg=#427b58 guibg=NONE gui=NONE cterm=NONE
+    " hi haskellNumber guifg=#8f3f71 guibg=NONE gui=NONE cterm=NONE
+    " hi haskellPragma guifg=#8f3f71 guibg=NONE gui=NONE cterm=NONE
+    " hi haskellString guifg=#79740e guibg=NONE gui=NONE cterm=NONE
+    " hi haskellChar guifg=#79740e guibg=NONE gui=NONE cterm=NONE
     hi jsonKeyword guifg=#79740e guibg=NONE gui=NONE cterm=NONE
     hi jsonQuote guifg=#79740e guibg=NONE gui=NONE cterm=NONE
     hi jsonBraces guifg=#3c3836 guibg=NONE gui=NONE cterm=NONE
@@ -1982,27 +1982,27 @@ if s:t_Co >= 256
       hi markdownUrlTitleDelimiter ctermfg=142 ctermbg=NONE cterm=NONE
       hi markdownLinkText ctermfg=102 ctermbg=NONE cterm=underline
       hi! link markdownIdDeclaration markdownLinkText
-      hi haskellType ctermfg=187 ctermbg=NONE cterm=NONE
-      hi haskellIdentifier ctermfg=187 ctermbg=NONE cterm=NONE
-      hi haskellSeparator ctermfg=187 ctermbg=NONE cterm=NONE
-      hi haskellDelimiter ctermfg=137 ctermbg=NONE cterm=NONE
-      hi haskellOperators ctermfg=109 ctermbg=NONE cterm=NONE
-      hi haskellBacktick ctermfg=208 ctermbg=NONE cterm=NONE
-      hi haskellStatement ctermfg=208 ctermbg=NONE cterm=NONE
-      hi haskellConditional ctermfg=208 ctermbg=NONE cterm=NONE
-      hi haskellLet ctermfg=107 ctermbg=NONE cterm=NONE
-      hi haskellDefault ctermfg=107 ctermbg=NONE cterm=NONE
-      hi haskellWhere ctermfg=107 ctermbg=NONE cterm=NONE
-      hi haskellBottom ctermfg=107 ctermbg=NONE cterm=NONE
-      hi haskellBlockKeywords ctermfg=107 ctermbg=NONE cterm=NONE
-      hi haskellImportKeywords ctermfg=107 ctermbg=NONE cterm=NONE
-      hi haskellDeclKeyword ctermfg=107 ctermbg=NONE cterm=NONE
-      hi haskellDeriving ctermfg=107 ctermbg=NONE cterm=NONE
-      hi haskellAssocType ctermfg=107 ctermbg=NONE cterm=NONE
-      hi haskellNumber ctermfg=175 ctermbg=NONE cterm=NONE
-      hi haskellPragma ctermfg=175 ctermbg=NONE cterm=NONE
-      hi haskellString ctermfg=142 ctermbg=NONE cterm=NONE
-      hi haskellChar ctermfg=142 ctermbg=NONE cterm=NONE
+      " hi haskellType ctermfg=187 ctermbg=NONE cterm=NONE
+      " hi haskellIdentifier ctermfg=187 ctermbg=NONE cterm=NONE
+      " hi haskellSeparator ctermfg=187 ctermbg=NONE cterm=NONE
+      " hi haskellDelimiter ctermfg=137 ctermbg=NONE cterm=NONE
+      " hi haskellOperators ctermfg=109 ctermbg=NONE cterm=NONE
+      " hi haskellBacktick ctermfg=208 ctermbg=NONE cterm=NONE
+      " hi haskellStatement ctermfg=208 ctermbg=NONE cterm=NONE
+      " hi haskellConditional ctermfg=208 ctermbg=NONE cterm=NONE
+      " hi haskellLet ctermfg=107 ctermbg=NONE cterm=NONE
+      " hi haskellDefault ctermfg=107 ctermbg=NONE cterm=NONE
+      " hi haskellWhere ctermfg=107 ctermbg=NONE cterm=NONE
+      " hi haskellBottom ctermfg=107 ctermbg=NONE cterm=NONE
+      " hi haskellBlockKeywords ctermfg=107 ctermbg=NONE cterm=NONE
+      " hi haskellImportKeywords ctermfg=107 ctermbg=NONE cterm=NONE
+      " hi haskellDeclKeyword ctermfg=107 ctermbg=NONE cterm=NONE
+      " hi haskellDeriving ctermfg=107 ctermbg=NONE cterm=NONE
+      " hi haskellAssocType ctermfg=107 ctermbg=NONE cterm=NONE
+      " hi haskellNumber ctermfg=175 ctermbg=NONE cterm=NONE
+      " hi haskellPragma ctermfg=175 ctermbg=NONE cterm=NONE
+      " hi haskellString ctermfg=142 ctermbg=NONE cterm=NONE
+      " hi haskellChar ctermfg=142 ctermbg=NONE cterm=NONE
       hi jsonKeyword ctermfg=142 ctermbg=NONE cterm=NONE
       hi jsonQuote ctermfg=142 ctermbg=NONE cterm=NONE
       hi jsonBraces ctermfg=187 ctermbg=NONE cterm=NONE
@@ -2605,27 +2605,27 @@ if s:t_Co >= 256
     hi markdownUrlTitleDelimiter ctermfg=100 ctermbg=NONE cterm=NONE
     hi markdownLinkText ctermfg=102 ctermbg=NONE cterm=underline
     hi! link markdownIdDeclaration markdownLinkText
-    hi haskellType ctermfg=237 ctermbg=NONE cterm=NONE
-    hi haskellIdentifier ctermfg=237 ctermbg=NONE cterm=NONE
-    hi haskellSeparator ctermfg=237 ctermbg=NONE cterm=NONE
-    hi haskellDelimiter ctermfg=243 ctermbg=NONE cterm=NONE
-    hi haskellOperators ctermfg=23 ctermbg=NONE cterm=NONE
-    hi haskellBacktick ctermfg=124 ctermbg=NONE cterm=NONE
-    hi haskellStatement ctermfg=124 ctermbg=NONE cterm=NONE
-    hi haskellConditional ctermfg=124 ctermbg=NONE cterm=NONE
-    hi haskellLet ctermfg=29 ctermbg=NONE cterm=NONE
-    hi haskellDefault ctermfg=29 ctermbg=NONE cterm=NONE
-    hi haskellWhere ctermfg=29 ctermbg=NONE cterm=NONE
-    hi haskellBottom ctermfg=29 ctermbg=NONE cterm=NONE
-    hi haskellBlockKeywords ctermfg=29 ctermbg=NONE cterm=NONE
-    hi haskellImportKeywords ctermfg=29 ctermbg=NONE cterm=NONE
-    hi haskellDeclKeyword ctermfg=29 ctermbg=NONE cterm=NONE
-    hi haskellDeriving ctermfg=29 ctermbg=NONE cterm=NONE
-    hi haskellAssocType ctermfg=29 ctermbg=NONE cterm=NONE
-    hi haskellNumber ctermfg=126 ctermbg=NONE cterm=NONE
-    hi haskellPragma ctermfg=126 ctermbg=NONE cterm=NONE
-    hi haskellString ctermfg=100 ctermbg=NONE cterm=NONE
-    hi haskellChar ctermfg=100 ctermbg=NONE cterm=NONE
+    " hi haskellType ctermfg=237 ctermbg=NONE cterm=NONE
+    " hi haskellIdentifier ctermfg=237 ctermbg=NONE cterm=NONE
+    " hi haskellSeparator ctermfg=237 ctermbg=NONE cterm=NONE
+    " hi haskellDelimiter ctermfg=243 ctermbg=NONE cterm=NONE
+    " hi haskellOperators ctermfg=23 ctermbg=NONE cterm=NONE
+    " hi haskellBacktick ctermfg=124 ctermbg=NONE cterm=NONE
+    " hi haskellStatement ctermfg=124 ctermbg=NONE cterm=NONE
+    " hi haskellConditional ctermfg=124 ctermbg=NONE cterm=NONE
+    " hi haskellLet ctermfg=29 ctermbg=NONE cterm=NONE
+    " hi haskellDefault ctermfg=29 ctermbg=NONE cterm=NONE
+    " hi haskellWhere ctermfg=29 ctermbg=NONE cterm=NONE
+    " hi haskellBottom ctermfg=29 ctermbg=NONE cterm=NONE
+    " hi haskellBlockKeywords ctermfg=29 ctermbg=NONE cterm=NONE
+    " hi haskellImportKeywords ctermfg=29 ctermbg=NONE cterm=NONE
+    " hi haskellDeclKeyword ctermfg=29 ctermbg=NONE cterm=NONE
+    " hi haskellDeriving ctermfg=29 ctermbg=NONE cterm=NONE
+    " hi haskellAssocType ctermfg=29 ctermbg=NONE cterm=NONE
+    " hi haskellNumber ctermfg=126 ctermbg=NONE cterm=NONE
+    " hi haskellPragma ctermfg=126 ctermbg=NONE cterm=NONE
+    " hi haskellString ctermfg=100 ctermbg=NONE cterm=NONE
+    " hi haskellChar ctermfg=100 ctermbg=NONE cterm=NONE
     hi jsonKeyword ctermfg=100 ctermbg=NONE cterm=NONE
     hi jsonQuote ctermfg=100 ctermbg=NONE cterm=NONE
     hi jsonBraces ctermfg=237 ctermbg=NONE cterm=NONE
