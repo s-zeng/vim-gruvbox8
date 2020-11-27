@@ -3179,6 +3179,39 @@ if s:t_Co >= 2
   finish
 endif
 
+highlight! link TSPunctDelimiter Grey
+highlight! link TSPunctBracket Fg
+highlight! link TSPunctSpecial Fg
+highlight! link TSConstant PurpleItalic
+highlight! link TSConstBuiltin PurpleItalic
+highlight! link TSConstMacro Purple
+highlight! link TSString Yellow
+highlight! link TSStringRegex Green
+highlight! link TSStringEscape Green
+highlight! link TSCharacter Yellow
+highlight! link TSNumber Purple
+highlight! link TSBoolean Purple
+highlight! link TSFloat Purple
+highlight! link TSFunction Green
+highlight! link TSFuncBuiltin Green
+highlight! link TSFuncMacro Green
+highlight! link TSParameter Fg
+highlight! link TSMethod Green
+highlight! link TSField Green
+highlight! link TSProperty Green
+highlight! link TSConstructor Fg
+highlight! link TSConditional Red
+highlight! link TSRepeat Red
+highlight! link TSLabel Orange
+highlight! link TSOperator Orange
+highlight! link TSKeyword Red
+highlight! link TSTagDelimiter Green
+highlight! link TSException Red
+highlight! link TSType Aqua
+highlight! link TSTypeBuiltin BlueItalic
+highlight! link TSStructure Orange
+highlight! link TSInclude PurpleItalic
+
 " Color: neutralred        rgb(204,  36,  29)    160 DarkRed
 " Color: neutralgreen      rgb(152, 151,  26)    100 DarkGreen
 " Color: neutralyellow     rgb(215, 153,  33)    172 DarkYellow
